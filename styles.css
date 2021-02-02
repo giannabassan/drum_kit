@@ -1,0 +1,132 @@
+body {
+  text-align: center;
+  background-color: #eeecda;
+  font-family: sans-serif;
+  color: #6a2c70;
+
+
+}
+
+h1 {
+  font-size: 5rem;
+  color: #6a2c70;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #fff;
+  margin: 1% auto;
+
+}
+
+footer {
+  color: #6a2c70;
+  font-family: sans-serif;
+}
+
+.w{
+  background-image: url(images/hithat.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.r{
+  background-image: url(images/crash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.t{
+  background-image: url(images/crash2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.y{
+  background-image: url(images/ride.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.f{
+  background-image: url(images/snare.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.g{
+  background-image: url(images/tom.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.h{
+  background-image: url(images/tom.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.j{
+  background-image: url(images/tom.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.b{
+  background-image: url(images/bassdrum1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.n{
+  background-image: url(images/bassdrum2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* ------ contenitore drunk kit qui sotto ----- */
+.grid-container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+}
+
+.grid-container > button {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 170px;
+  text-align: bottom;
+  padding-top: 90px;
+  font-size: 30px;
+
+  font-size: 3rem;
+  color: #6a2c70;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #fff;
+}
+
+.item9 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item10 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+/* --- contenitore qui sopra ------ */
+
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
